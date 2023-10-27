@@ -1,12 +1,7 @@
 export function MainTitle() {
   return (
     <div className="text-center">
-      <h1
-        className="-mb-52 -mt-16 text-11xl text-pink-500 opacity-70"
-        style={{
-          fontFamily: 'Pieches',
-        }}
-      >
+      <h1 className="-mb-52 -mt-16 font-alt text-11xl text-pink-500 opacity-70">
         <span
           style={{
             fontVariantLigatures: 'discretionary-ligatures',
