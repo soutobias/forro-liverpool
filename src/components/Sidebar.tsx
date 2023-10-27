@@ -1,10 +1,12 @@
 import forroLogo from '../assets/logo.png'
 import Image from 'next/image'
 
-interface SidebarProps {}
+// interface SidebarProps {
+//   title: string
+// }
 
-export function Sidebar(props: SidebarProps) {
-  function SidebarItem(props: any) {
+export function Sidebar() {
+  function SidebarItem(props: { title: string }) {
     return (
       <div className="pt-5">
         <a className="cursor-pointer font-alt text-7xl text-white hover:opacity-40">
@@ -27,8 +29,8 @@ export function Sidebar(props: SidebarProps) {
       </div>
       <div>
         <SidebarItem title={'About'} />
-        <SidebarItem title={'Events'} />
-        <SidebarItem title={'News'} />
+        <SidebarItem title="Events" />
+        <SidebarItem title="News" />
       </div>
     </div>
   )

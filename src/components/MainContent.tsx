@@ -1,9 +1,9 @@
 import { CrossAnimation } from './CrossAnimation'
 import { MainTitle } from './MainTitle'
 
-interface MainContentProps {}
+// interface MainContentProps {}
 
-export function MainContent(props: MainContentProps) {
+export function MainContent() {
   return (
     <div className="col-span-8">
       <MainTitle />

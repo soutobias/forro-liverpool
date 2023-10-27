@@ -1,8 +1,8 @@
 import { Sidebar } from './Sidebar'
 
-interface SideContentProps {}
+// interface SideContentProps {}
 
-export function SideContent(props: SideContentProps) {
+export function SideContent() {
   return (
     <div className="col-span-3">
       <Sidebar></Sidebar>

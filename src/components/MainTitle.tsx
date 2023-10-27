@@ -1,5 +1,3 @@
-import { CrossAnimation } from './CrossAnimation'
-
 export function MainTitle() {
   return (
     <div className="text-center">
@@ -36,7 +34,7 @@ export function MainTitle() {
         <span>L</span>
       </h1>
       <h1
-        className="text-14xl -mb-52 -mt-52 text-pink-400  opacity-70"
+        className="text-14xl -mb-52 -mt-52 text-pink-400   opacity-70"
         style={{
           fontFamily: 'Pieches',
         }}
@@ -64,7 +62,6 @@ export function MainTitle() {
         </span>
         <span style={{}}>ó</span>
       </h1>
-
       <h1
         className="text-13xl -mb-48  -mt-52 text-pink-600  opacity-70"
         style={{
